@@ -1,0 +1,26 @@
+[
+  {
+		"model": "courses.course",
+		"pk": 1,
+		"fields": {
+			"title": "Django",
+		  	"year_of_publication":2019
+		}
+	},
+	{
+		"model": "courses.course",
+		"pk": 2,
+		"fields": {
+			"title": "GraphQL",
+		  	"year_of_publication":2019
+		}
+	},
+	{
+		"model": "courses.student",
+		"pk": 1,
+		"fields": {
+			"name": "Pepito",
+			"courses": [1, 2]
+		}
+	}
+]
